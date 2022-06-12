@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 const GetInTouch = () => {
     return (
@@ -9,7 +10,8 @@ const GetInTouch = () => {
                 </h2>
                 <div className="row">
                     <div className="col-4">
-                        <div className="card" style={{width: "18rem"}}>
+                        <Card buttonText="Buy VolleyBall" cardAbout="VolleyBall is a fun sport, You would enjoy playing volleyaball a lot." />
+                        {/* <div className="card" style={{width: "18rem"}}>
                             <img
                                 src="https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 className="card-img-top"
@@ -23,10 +25,11 @@ const GetInTouch = () => {
                                 </p>
                                 <a href="#" className="btn btn-success">Go somewhere</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-4">
-                        <div className="card" style={{width: "18rem"}}>
+                        <Card title="Chess" cardAbout="Chess is a very addictive indoor game, I am sure you would be hooked onto it!" buttonText="Buy ChessBoard" ></Card>
+                        {/* <div className="card" style={{ width: "18rem" }}>
                             <img
                                 src="https://images.pexels.com/photos/3532544/pexels-photo-3532544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 className="card-img-top"
@@ -40,10 +43,11 @@ const GetInTouch = () => {
                                 </p>
                                 <a href="#" className="btn btn-success">Go somewhere</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-4">
-                        <div className="card" style={{width: "18rem"}}>
+                        <Card title="COD" cardAbout="Call of Duty is an online multiplayer video game, Tune in if you like FPP Shooter games." buttonText="Buy COD"></Card>
+                        {/* <div className="card" style={{ width: "18rem" }}>
                             <img
                                 src="https://images.pexels.com/photos/2522663/pexels-photo-2522663.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 className="card-img-top"
@@ -57,7 +61,7 @@ const GetInTouch = () => {
                                 </p>
                                 <a href="#" className="btn btn-success">Go somewhere</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
