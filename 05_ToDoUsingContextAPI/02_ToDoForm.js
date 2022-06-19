@@ -24,15 +24,16 @@ const ToDoForm = () => {
                         id="todo"
                         placeholder="Your next ToDo"
                     />
-                    <InputGroupAddon addonType="prepend">
-                        <Button color="warning">
-                            Add
-                        </Button>
-                    </InputGroupAddon>
+                    <Button color="warning">
+                        Add
+                    </Button>
                 </InputGroup>
             </FormGroup>
         </Form>
     );
 }
+
+// InputGroupAddon is removed from the package, So remove the element 
+// Works just same either way. 
 
 export default ToDoForm;
