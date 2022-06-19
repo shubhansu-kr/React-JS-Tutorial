@@ -11,10 +11,16 @@ const ThemeToggler = () => {
                 setThemeMode(themeMode === 'light' ? 'dark' : 'light');
             }
         }>
-
-            <span>
-                {themeMode === 'light' ? 'Turn Off' : 'Lights ON'}
-            </span>
+            <button
+                style={{
+                    backgroundColor: '#26ae60',
+                    padding: '10px 150px',
+                    color: '#FFF',
+                    fontSize: '20px',
+                }}
+            >
+                {themeMode === 'light' ? 'Day' : 'Night'}
+            </button>
         </div>
     );
 };

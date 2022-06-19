@@ -1,14 +1,11 @@
 import React from "react";
 
-import ThemeToggler from "./ThemeToggler";
-
 const Header = () => {
     return (
         <header>
             <h1>
-                Theme Toggler
+                Assignment_03 : Create a Button to toggle theme. 
             </h1>
-            <ThemeToggler />
         </header>
     );
 };
